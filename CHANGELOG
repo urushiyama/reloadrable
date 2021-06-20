@@ -1,0 +1,9 @@
+1.0.0
+    Initial convey.
+    This work is based on Reloadr (https://github.com/hoh/reloadr).
+    Made some functions to be public to suppress IDE's warning.
+    Added ways to stop periodical reloads and to stop reloads on file modifications.
+    Added decorators for periodical reloading.
+    Added decorators to set an event handler instance that handles a callback on reload
+        and to set a file path to be observed for reloading the target.
+    Added logging.
